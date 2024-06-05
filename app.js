@@ -33,6 +33,6 @@ app.use("/api/v1", email);
 
 export default app;
 
-app.get("/", (req, res) => res.send(`<h1>Trade Mark Software backend</h1>`));
+app.get("/", (req, res) => res.send(`<h1>Send Email Server</h1>`));
 
 app.use(ErrorMiddleware);
